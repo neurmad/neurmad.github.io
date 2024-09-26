@@ -22,9 +22,6 @@ description              : "1st Workshop on Neural Reasoning and Mathematical Di
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : neurmad/neurmad.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-collections:
-  authors:
-    output: true
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -40,9 +37,8 @@ title: NEURMAD
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   1st Workshop on Neural Reasoning and Mathematical Discovery (NeurMad), held at AAAI 2025
-domain: "neurmad.github.io"
-baseurl: "/neurmad.github.io" # the subpath of your site, e.g. /blog
-url: "http://neurmad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
