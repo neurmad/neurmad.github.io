@@ -4,6 +4,8 @@ main:
     url:  "/" 
   - title: "Call for papers"
     url: "/call-for-papers.html"  # Link to your call for papers page
+  - title: "Accepted papers"
+    url: "/accepted_papers.html"  # Link to your committee page
   - title: "Committee"
     url: "/committee.html"  # Link to your committee page
   - title: "Program"
