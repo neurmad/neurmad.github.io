@@ -81,3 +81,53 @@ search: false
     padding-top: 5px; /* Space between the title and the first line of the abstract */
     border-top: 1px solid #eee; /* Subtle separation from the title */
 }
+
+
+.program-header {
+    text-align: center;
+    font-weight: bold;
+    background-color: $base01;
+    color: white;
+}
+
+.program-bookend {
+    font-weight: bold;
+    background-color: $base02;
+    color: white;
+}
+
+.program-keynote {
+    text-align: center;
+    font-weight: bold;
+    background-color: $base03;
+    color: white;
+}
+
+.program-session {
+    text-align: center;
+    font-weight: bold;
+    background-color: $base04;
+}
+
+.program-break {
+    text-align: center;
+    font-weight: bold;
+    background-color: $base05;
+}
+
+.program {
+    font-size: 100%;
+}
+
+.presenter {
+    text-decoration: underline;
+}
+
+.abstract {
+    margin-top: 1ex;
+    display: block;
+}
+
+.abstract::before {
+    content: "Abstract: ";
+}
