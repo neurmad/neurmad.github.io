@@ -1315,3 +1315,21 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 /* Enhancing abstract specific styling to separate it from other texts */
 .invited_speaker p.abstract { text-align: justify; /* Justifies the abstract text for a clean look */ padding-top: 5px; /* Space between the title and the first line of the abstract */ border-top: 1px solid #eee; /* Subtle separation from the title */ }
+
+.program-header { text-align: center; font-weight: bold; background-color: #2e3c43; color: white; }
+
+.program-bookend { font-weight: bold; background-color: #314549; color: white; }
+
+.program-keynote { text-align: center; font-weight: bold; background-color: #546e7a; color: white; }
+
+.program-session { text-align: center; font-weight: bold; background-color: #b2ccd6; }
+
+.program-break { text-align: center; font-weight: bold; background-color: #eeffff; }
+
+.program { font-size: 100%; }
+
+.presenter { text-decoration: underline; }
+
+.abstract { margin-top: 1ex; display: block; }
+
+.abstract::before { content: "Abstract: "; }
