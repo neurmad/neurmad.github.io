@@ -9,7 +9,7 @@ main:
   - title: "Committee"
     url: "/committee.html"  # Link to your committee page
   - title: "Program"
-    url: "/workshop_program.html"
+    url: "/workshop_program.html"  
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
