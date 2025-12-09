@@ -1304,7 +1304,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .invited_speakers { display: flex; flex-wrap: wrap; justify-content: space-around; /* Adjust this to align the speakers as desired */ }
 
-.invited_speaker { flex-basis: calc(20% - 5px); /* Adjust for 4 speakers per line, considering margin */ margin: 10px; /* Margin around each speaker */ text-align: center; /* Center-align the name under the photo */ padding: 0; /* Or adjust as needed */ box-sizing: border-box; /* Include padding and borders in the width */ }
+.invited_speaker { flex-basis: 0 0 20%; /* calc(20% - 5px); Adjust for 4 speakers per line, considering margin */ margin: 10px; /* Margin around each speaker */ text-align: center; /* Center-align the name under the photo */ padding: 0; /* Or adjust as needed */ box-sizing: border-box; /* Include padding and borders in the width */ }
 
 .invited_speaker img { width: 300px; /* Adjust image width */ height: 300px; /* Maintain aspect ratio */ border-radius: 30%; /* Optional: makes the image circular */ object-fit: cover; /* Ensures the image covers the area without distortion */ margin-bottom: 15px; /* Space between the image and the text */ }
 
