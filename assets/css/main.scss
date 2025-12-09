@@ -53,9 +53,9 @@ search: false
 }
 
 .invited_speaker img {
-    width: 300px; /* Adjust image width */
-    height: 300px; /* Maintain aspect ratio */
-    border-radius: 30%; /* Optional: makes the image circular */
+    width: 230px; /* Adjust image width */
+    height: 230px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
     object-fit: cover; /* Ensures the image covers the area without distortion */
     margin-bottom: 15px; /* Space between the image and the text */
 }

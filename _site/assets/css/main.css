@@ -1306,7 +1306,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .invited_speaker { flex-basis: 0 0 20%; /* calc(20% - 5px); Adjust for 4 speakers per line, considering margin */ margin: 10px; /* Margin around each speaker */ text-align: center; /* Center-align the name under the photo */ padding: 0; /* Or adjust as needed */ box-sizing: border-box; /* Include padding and borders in the width */ }
 
-.invited_speaker img { width: 300px; /* Adjust image width */ height: 300px; /* Maintain aspect ratio */ border-radius: 30%; /* Optional: makes the image circular */ object-fit: cover; /* Ensures the image covers the area without distortion */ margin-bottom: 15px; /* Space between the image and the text */ }
+.invited_speaker img { width: 230px; /* Adjust image width */ height: 230px; /* Maintain aspect ratio */ border-radius: 50%; /* Optional: makes the image circular */ object-fit: cover; /* Ensures the image covers the area without distortion */ margin-bottom: 15px; /* Space between the image and the text */ }
 
 /* New styles for the title and abstract */
 .invited_speaker h3 { font-size: 1.7em; /* Slightly larger to denote importance */ color: #333; /* Dark color for better readability */ margin-top: 10px; /* Space from the previous content */ margin-bottom: 5px; /* Minimal gap before abstract */ }
