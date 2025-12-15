@@ -1333,3 +1333,16 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .abstract { margin-top: 1ex; display: block; }
 
 .abstract::before { content: "Abstract: "; }
+
+.program-talk { text-align: left; font-weight: bold; background-color: #2e3c43; color: white; }
+
+.invited_talk { text-align: left; font-weight: bold; background-color: #2e3c43; color: white; }
+
+.invited_speaker { flex-basis: 0 0 20%; /* calc(20% - 5px); Adjust for 4 speakers per line, considering margin */ margin: 10px; /* Margin around each speaker */ text-align: center; /* Center-align the name under the photo */ padding: 0; /* Or adjust as needed */ box-sizing: border-box; /* Include padding and borders in the width */ }
+
+.invited_speaker img { width: 250px; /* Adjust image width */ height: 230px; /* Maintain aspect ratio */ border-radius: 60%; /* Optional: makes the image circular */ object-fit: cover; /* Ensures the image covers the area without distortion */ margin-bottom: 1px; /* Space between the image and the text */ }
+
+/* New styles for the title and abstract */
+.invited_speaker h3 { font-size: 2.0em; /* Slightly larger to denote importance */ color: #bab4b4; /* Dark color for better readability */ margin-top: 10px; /* Space from the previous content */ margin-bottom: 5px; /* Minimal gap before abstract */ }
+
+.invited_speaker p { font-size: 1.1em; /* Slightly smaller than usual paragraph text */ color: #f1f0f0; /* Lighter color to differentiate from titles and important info */ line-height: 1.5; /* Better readability for longer text */ margin: 0 20px; /* Horizontal margins for alignment, no vertical margin to keep close to title */ }

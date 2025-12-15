@@ -107,7 +107,7 @@
           NEUREASON'26 
           
         </a>
-                  <ul class="visible-links">
+          <ul class="visible-links">
           <li class="masthead__menu-item"> 
             </li> 
             <li class="masthead__menu-item">
@@ -151,6 +151,9 @@
   </div>
 </div>
 
+    
+
+
 
 <div class="initial-content">
       
@@ -162,7 +165,7 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Invited Speakers in presence <br> (alphabetically ordered)
+          Talks of Invited Speakers in presence <br> (alphabetically ordered)
 
       </h1> 
       
@@ -187,139 +190,66 @@
     <section class="page__content" itemprop="text">
       <div class="page__content">
 
-        <div class="invited_speakers">
-          <!-- Row 1 -->
-           <div class="invited_speaker">
-          <img src="/assets/images/dominique.jpg" alt="Dominique Beaini">
-          <p>
-            <a href="https://mila.quebec/en/directory/dominique-beaini/">Dominique Beaini</a><br>
-            Valence Discovery & Mila 
-          </p> 
-          </div>
-
-          <div class="invited_speaker">
-            <img src="/assets/images/tony.jpg" alt="Tony Cohn">
-            <p>
-              <a href="https://www.turing.ac.uk/people/researchers/anthony-cohn">Tony Cohn</a><br>
-              Alan Turing Institute &<br> University of Leeds
-            </p>
-          </div>
-
-          <div class="invited_speaker">
-          <img src="/assets/images/cristina.jpeg" alt="Cristina Cornelio">
-          <p>
-            <a href="https://corneliocristina.github.io/">Cristina Cornelio</a><br>
-            Samsung AI in Cambridge
-          </p>
-          </div>
-
-                   
-        </div>
         
-        <div class="invited_speakers">
-          <!-- Row 2 -->
-          <div class="invited_speaker">
-            <img src="/assets/images/mark.jpg" alt="Mark A Girolami">
-            <p>
-              <a href="https://www.turing.ac.uk/people/researchers/mark-girolami">Mark A Girolami</a><br>
-              Alan Turing Institute & <br> University of Cambridge
-            </p>
-          </div> 
 
-          <div class="invited_speaker">
-          <img src="/assets/images/guolin.jpg" alt="Lin Guo">
-          <p>
-            <a href="https://scholar.google.com/citations?user=Ys5ZVhEAAAAJ&hl=en"> Lin Guo</a><br>
-            Shanghai Normal University
-          </p>
-          </div> 
+        <table class="program">
 
-          <div class="invited_speaker">
+            
+        <tr class="program-talk">
+          <th> 
+            <div class="invited_speaker">
             <img src="/assets/images/anders.jpg" alt="Anders C. Hansen">
             <p>
               <a href="https://www.damtp.cam.ac.uk/research/afha/anders/">Anders C. Hansen</a><br>
-              University of Cambridge
+             Cambridge
             </p>
-          </div>
+            </div>
+          </th>
+          <th><td colspan="2"> 
+              <th><td colspan="2"> Title: Necessary mechanisms for super AI and stopping hallucinations <br><br>
+                   The consistent reasoning paradox and the indeterminacy function.
 
-        </div>
+Abstract: Creating Artificial Super Intelligence (ASI) (AI that surpasses human intelligence) is the ultimate challenge in AI research. This is, as we will discuss, fundamentally linked to the problem of avoiding hallucinations (wrong, yet plausible answers) in AI. We will describe a key mechanism that must be present in any ASI. This mechanism is not present in any modern chatbot and we will discuss how, without it, ASI will never be achievable. Moreover, we reveal that AI missing this mechanism will always hallucinate. Specifically, this mechanism is the computation of what we call an indeterminacy function. An indeterminacy function determines when an AI is correct and when it will not be able to answer with 100% confidence. The root to these findings is the Consistent Reasoning Paradox (CRP), which is a new paradox in logical reasoning that we will describe in the talk. The CRP shows that the above mechanism must be present as – surprisingly – an ASI that is ‘pretty sure’ (more than 50%) can rewrite itself to become 100% certain. It will compute an indeterminacy function and either be correct with 100% confidence, or it will not be more than 50% sure. The CRP addresses a long-standing issue that stems from Turing’s famous statement that infallible AI cannot be intelligent, where he questions how much intelligence may be displayed if an AI makes no pretence at infallibility. The CRP answers this – consistent reasoning requires fallibility – and thus marks a necessary fundamental shift in AI design if ASI is to ever be achieved and hallucinations to be stopped.
+              </th> 
+          </th> 
+          </tr>
 
-        <div class="invited_speakers">
-          <!-- Row 3 -->
-
-         <div class="invited_speaker">
-          <img src="/assets/images/yanghui.jpg" alt="Yanghui He">
-          <p>
-            <a href="https://www.citystgeorges.ac.uk/about/people/academics/yang-hui-he">Yang-Hui He</a><br>
-            LIMS  &<br> University of London
-          </p>
-          </div>
+        </table>
           
-          <div class="invited_speaker">
-          <img src="/assets/images/miguel.jpg" alt="José Miguel Hernández-Lobato">
-          <p>
-            <a href="https://mlg.eng.cam.ac.uk/people/jose-miguel-hernandez-lobato/">José Miguel Hernández-Lobato</a><br>
-            University of Cambridge
-          </p> 
-          </div>
-           
-         <div class="invited_speaker">
-          <img src="/assets/images/asim.jpg" alt="Asim Munawar">
-          <p>
-            <a href="https://research.ibm.com/people/asim-munawar">Asim Munawar</a><br>
-            IBM Research
-          </p> 
-          </div>
-        </div>
+ 
+                
 
-        <div class="invited_speakers">
-          <!-- Row 4 --> 
+        <table class="program">
+
+            
+        <tr class="program-talk">
           
-          <div class="invited_speaker">
+          <th><td colspan="2"> 
+              <th><td colspan="2">Title: Learning neuro-symbolic convergent term rewriting systems<br><br>
+
+                Building neural systems that can learn to execute symbolic algorithms is a challenging open problem in artificial intelligence, especially when aiming for strong generalization and out-of-distribution performance. In this talk, I introduce a general framework for learning convergent term rewriting systems using a neuro-symbolic architecture inspired by the rewriting algorithm itself. I present two modular implementations of such architecture: the Neural Rewriting System (NRS) and the Fast Neural Rewriting System (FastNRS). As a result of algorithmic-inspired design and key architectural elements, both models can generalize to out-of-distribution instances, with FastNRS offering significant improvements in terms of memory efficiency, training speed, and inference time. We evaluate both architectures on four tasks involving the simplification of mathematical formulas and further demonstrate their versatility in a multi-domain learning scenario, where a single model is trained to solve multiple types of problems simultaneously. 
+</th> 
+          </th> 
+          <th> 
+            <div class="invited_speaker">
             <img src="/assets/images/alessandro.jpg" alt="Alessandro Sperduti">
             <p>
               <a href="http://hit.psy.unipd.it">Alessandro Sperduti</a><br>
               Università di Padova
             </p>
           </div>
+          </th>
+          </tr>
 
-          <div class="invited_speaker">
-            <img src="/assets/images/barbara.jpg" alt="Barbara Tversky">
-            <p>
-              <a href="https://psychology.stanford.edu/people/barbara-tversky">Barbara Tversky</a><br>
-              Stanford University &<br> Columbia Teachers College
-            </p>
-          </div> 
+        </table>
           
-          <div class="invited_speaker">
-          <img src="/assets/images/petar.jpg" alt="Petar Veličković">
-          <p>
-            <a href="https://petar-v.com/">Petar Veličković</a><br>
-            Google DeepMind
-          </p> 
-          </div>
-         </div>
-         
 
-        <div class="invited_speakers">
-          <!-- Row 5 --> 
+         <table class="program">
 
-           <div class="invited_speaker">
-          <img src="/assets/images/jamie.jpeg" alt="Jamie Vicary">
-          <p>
-            <a href="https://www.cl.cam.ac.uk/~jv258/">Jamie Vicary</a><br>
-            University of Cambridge
-          </p>
-          </div> 
-
-            <div class="invited_speaker">
-          <img src="/assets/images/yuguang.jpg" alt="YuGuang Wang">
-          <p>
-            <a href="https://yuguangwang.github.io/">Yu-Guang Wang</a><br>
-            Shanghai Jiao Tong University
-          </p>
-          </div> 
-
+            
+        <tr class="program-talk">
+          <th> 
+            
           <div class="invited_speaker">
             <img src="/assets/images/xiakelin.jpg" alt="Kelin Xia">
             <p>
@@ -327,8 +257,21 @@
               NTU Singapore
             </p>
           </div> 
-           
-        </div>
+          </th>
+          <th><td colspan="2"> 
+              <th><td colspan="2"> Title: Mathematical AI: from topological data analysis to topological deep learning<br><br>
+
+                A central challenge in artificial intelligence (AI)-driven molecular science lies in efficiently representing molecular data and developing learning architectures that capture intrinsic structure-function relationships. In this work, we introduce advanced mathematics-based molecular representations and learning frameworks. Molecular structures and interactions are encoded using high-order topological and algebraic representations, including Rips complexes, Alpha complexes, Neighborhood complexes, Dowker complexes, Hom-complexes, Tor-algebras, Rhomboid tilings, Sheaves, Categories, etc. Building on these foundations, we design physics-informed geometric and topological deep learning models that systematically integrate high-order, multiscale, and periodic information of molecular systems. These models have been successfully applied to diverse molecular datasets across chemistry, biology, and materials science, demonstrating their versatility and effectiveness in uncovering complex structural-functional relationships.
+              </th> 
+          </th> 
+          
+          </tr>
+
+        </table>
+          
+         
+  
+          
  
     </section>
   </article>
@@ -369,10 +312,7 @@
 
 
 
-
-
-
-
-
   </body>
 </html>
+
+ 
