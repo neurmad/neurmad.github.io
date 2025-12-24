@@ -14,6 +14,7 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
+  gem "openssl", "~> 3.3.1"
 end
 
 gem "webrick", "~> 1.8"
